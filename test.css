@@ -2,7 +2,6 @@ body{
 scroll-behavior:smooth
 }
 
-}
 li {
   display: inline;
 }
@@ -16,7 +15,6 @@ li a {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'nav'
     'sec1'
     'sec2'
     'sec3'
@@ -26,9 +24,6 @@ li a {
   width: 100%;
 }
 
-#navbar__list {
-  grid-area: nav;
-}
 #section1 {
   grid-area: sec1;
 }
