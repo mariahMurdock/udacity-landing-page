@@ -17,6 +17,13 @@
  * Define Global Variables
  *
 */
+// const nav-list=document.querySelectorAll('navbar__list');
+// // const sections=document.querySelectorAll('#section');
+// const sections=document.getElementById('section');
+//
+// for (sections of section) {
+//   // code block to be executed
+// }
 
 
 /**
@@ -53,3 +60,6 @@
 // Scroll to section on link click
 
 // Set sections as active
+
+
+// MEDIA QUERY

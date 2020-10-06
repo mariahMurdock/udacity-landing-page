@@ -1,0 +1,82 @@
+body{
+scroll-behavior:smooth
+}
+
+}
+li {
+  display: inline;
+}
+li a {
+  padding: 20px;
+  background-color: #D2B48C;
+  text-decoration: none;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'nav'
+    'sec1'
+    'sec2'
+    'sec3'
+    'sec4';
+  grid-gap: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+#navbar__list {
+  grid-area: nav;
+}
+#section1 {
+  grid-area: sec1;
+}
+
+#section2 {
+  grid-area: sec2;
+}
+
+#section3 {
+  grid-area: sec3;
+}
+#section4 {
+  grid-area: sec4;
+}
+
+
+/* Desktop (Default Grid) */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'sec1 sec1 sec1'
+      'sec2 sec2 sec2'
+      'sec3 sec3 sec3'
+      'sec4 sec4 sec4';
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'sec1 sec1'
+      'sec2 sec2'
+      'sec3 sec3'
+      'sec4 sec4';
+  }
+}
+
+/* phone landscape & smaller */
+@media only screen and (max-width: 479px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'sec1'
+      'sec2'
+      'sec3'
+      'sec4';
+  }
+}
