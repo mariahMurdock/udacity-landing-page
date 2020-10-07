@@ -64,7 +64,10 @@ li a {
 }
 
 /* phone landscape & smaller */
-@media only screen and (max-width: 479px) {
+  @media only screen and (max-width: 479px) {
+  body {
+    padding: 0%;
+  }
   .grid-container {
     display: grid;
     grid-template-areas:
@@ -73,4 +76,33 @@ li a {
       'sec3'
       'sec4';
   }
+  .navbar__menu {
+    display: inline-flexbox;
+    background-color: beige;
+    margin: 0%;
+    padding: 0%;
+  }
+  .navbar__list {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+  }
+  li {
+    display: flexbox;
+    padding: 0%;
+    margin: 0%;
+    padding-left: 0.7%;
+    width: 25%;
+    font-size: 90%;
+  }
+  li a {
+    padding: 0%;
+    margin: 0%;
+    display: flexbox;
+    background-color: #D2B48C;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+  }
+
 }
