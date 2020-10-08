@@ -6,11 +6,23 @@ scroll-behavior:smooth
 }
 li {
   display: inline;
+  height: 100%;
 }
 li a {
-  padding: 20px;
-  background-color: #D2B48C;
+  padding: 0, 24px;
   text-decoration: none;
+  color: black;
+  height: 110px;
+}
+button {
+  background-color: #D2B48C ;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  /* border-radius: 10px; */
+}
+.active, .btn:hover {
+  background-color: #FAEBD7;
   color: white;
 }
 
