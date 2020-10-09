@@ -44,9 +44,10 @@
       this.className += ' active';
     });
   }
-
+  // add smooth scroll functionality
+  // grab navbar class, ul, anchor tags
   const links = document.querySelectorAll(".navbar__menu ul a");
-
+// add event listener to 
   for (const link of links) {
     link.addEventListener("click", clickHandler);
   }
