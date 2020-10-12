@@ -3,7 +3,7 @@
   const textContentList = ['Section One', 'Section Two', 'Section Three', 'Section Four'];
   const classList = ['btn', 'btn', 'btn', 'btn'];
 
-  for (let i = 0; i < hrefList.length; i++) {
+    for (let i = 0; i < hrefList.length; i++) {
     // grab navbar ul id from HTML
     const navBarUl = document.querySelector('#navbar__list');
     //  create li
@@ -47,7 +47,7 @@
   // add smooth scroll functionality
   // grab navbar class, ul, anchor tags
   const links = document.querySelectorAll(".navbar__menu ul a");
-// add event listener to 
+  // add event listener to
   for (const link of links) {
     link.addEventListener("click", clickHandler);
   }
@@ -62,3 +62,5 @@
       behavior: "smooth"
     });
   }
+
+  // highlight navbar when scrolling
